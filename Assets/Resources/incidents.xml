@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<IncidentCollection>
+  <Incidents>
+
+    <Incident name="broken wheel">
+      <Effect>immobile</Effect>
+      <Duration>-1</Duration>
+      <Description>A wheel dun broke.</Description>
+    </Incident>
+
+    <Incident name="found supplies">
+      <Effect>add supplies</Effect>
+      <Duration>-1</Duration>
+      <Description>You've stumbled upon some supplies.</Description>
+    </Incident>
+
+    <Incident name="muddy trail">
+      <Effect>half speed</Effect>
+      <Duration>30</Duration>
+      <Description>The trail has turned to mud. Your wagon struggles through the mire.</Description>
+    </Incident>
+
+  </Incidents>
+</IncidentCollection>
