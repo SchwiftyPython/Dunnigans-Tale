@@ -1,3 +1,11 @@
+Mono path[0] = 'C:/Users/Vinny/Documents/Dunnigan's Tale/Dunnigan's Tale_Data/Managed'
+Mono path[1] = 'C:/Users/Vinny/Documents/Dunnigan's Tale/Dunnigan's Tale_Data/Mono'
+Mono config path = 'C:/Users/Vinny/Documents/Dunnigan's Tale/Dunnigan's Tale_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Vinny/Documents/Dunnigan's Tale/Dunnigan's Tale_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55416
+Multi-casting "[IP] 192.168.0.7 [Port] 55416 [Flags] 2 [Guid] 912643682 [EditorId] 3851322216 [Version] 1048832 [Id] WindowsPlayer(Vinny-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55416]
+PlayerConnection already initialized - listening to [0.0.0.0:55416]
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -19,24 +27,211 @@ Platform assembly: C:\Users\Vinny\Documents\Dunnigan's Tale\Dunnigan's Tale_Data
 Loading C:\Users\Vinny\Documents\Dunnigan's Tale\Dunnigan's Tale_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: C:\Users\Vinny\Documents\Dunnigan's Tale\Dunnigan's Tale_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Vinny\Documents\Dunnigan's Tale\Dunnigan's Tale_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.153 seconds
+- Completed reload, in  0.235 seconds
 Platform assembly: C:\Users\Vinny\Documents\Dunnigan's Tale\Dunnigan's Tale_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Vinny\Documents\Dunnigan's Tale\Dunnigan's Tale_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 59Hz; virtual: 3600x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.047060 ms
+UnloadTime: 1.286858 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.599493 ms
-Next check: 100
+UnloadTime: 4.764994 ms
+Next check: 110
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+IncidentManager:setNextIncidentCheck() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:11)
+GameController:Awake() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\GameController.cs:37)
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/Incidents/IncidentManager.cs Line: 11)
 
+System memory in use before: 16.1 MB.
+System memory in use after: 16.1 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 290.
-Total: 0.186218 ms (FindLiveObjects: 0.016192 ms CreateObjectMapping: 0.014287 ms MarkObjects: 0.150974 ms  DeleteObjects: 0.003810 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 381.
+Total: 0.291471 ms (FindLiveObjects: 0.023574 ms CreateObjectMapping: 0.018574 ms MarkObjects: 0.240750 ms  DeleteObjects: 0.007620 ms)
 
 Platform assembly: C:\Users\Vinny\Documents\Dunnigan's Tale\Dunnigan's Tale_Data\Managed\System.Xml.dll (this message is harmless)
+Checking incident...
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\GameController.cs:56)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/GameController.cs Line: 56)
+
+Next check: 206
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+IncidentManager:setNextIncidentCheck() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:11)
+IncidentManager:incidentCheck() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:30)
+GameController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\GameController.cs:57)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/Incidents/IncidentManager.cs Line: 11)
+
+Checking incident...
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\GameController.cs:56)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/GameController.cs Line: 56)
+
+muddy trail
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+IncidentManager:generateIncident() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:40)
+IncidentManager:incidentCheck() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:17)
+GameController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\GameController.cs:57)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/Incidents/IncidentManager.cs Line: 40)
+
+half speed
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+IncidentManager:generateIncident() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:41)
+IncidentManager:incidentCheck() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:17)
+GameController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\GameController.cs:57)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/Incidents/IncidentManager.cs Line: 41)
+
+30
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+IncidentManager:generateIncident() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:42)
+IncidentManager:incidentCheck() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:17)
+GameController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\GameController.cs:57)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/Incidents/IncidentManager.cs Line: 42)
+
+The trail has turned to mud. Your wagon struggles through the mire.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+IncidentManager:generateIncident() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:43)
+IncidentManager:incidentCheck() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:17)
+GameController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\GameController.cs:57)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/Incidents/IncidentManager.cs Line: 43)
+
+In the popUp method
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+IncidentPopUp:PopUp(String, String, UnityAction) (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentPopUp.cs:33)
+CallIncidentPopUp:callPopUp(Incident) (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\CallIncidentPopUp.cs:17)
+IncidentManager:incidentCheck() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:20)
+GameController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\GameController.cs:57)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/Incidents/IncidentPopUp.cs Line: 33)
+
+Applying incident half speed
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+IncidentManager:applyEffect(Incident) (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:51)
+IncidentManager:incidentCheck() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:22)
+GameController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\GameController.cs:57)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/Incidents/IncidentManager.cs Line: 51)
+
+Incident success
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+IncidentManager:incidentCheck() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:26)
+GameController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\GameController.cs:57)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/Incidents/IncidentManager.cs Line: 26)
+
+Next check: 268
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+IncidentManager:setNextIncidentCheck() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:11)
+IncidentManager:incidentCheck() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\Incidents\IncidentManager.cs:30)
+GameController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\GameController.cs:57)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/Incidents/IncidentManager.cs Line: 11)
+
+Checking active effects...
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CaravanController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\CaravanController.cs:63)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/CaravanController.cs Line: 63)
+
+Checking active effects...
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CaravanController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\CaravanController.cs:63)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/CaravanController.cs Line: 63)
+
+Checking active effects...
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CaravanController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\CaravanController.cs:63)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/CaravanController.cs Line: 63)
+
+Checking active effects...
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CaravanController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\CaravanController.cs:63)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/CaravanController.cs Line: 63)
+
+Checking active effects...
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CaravanController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\CaravanController.cs:63)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/CaravanController.cs Line: 63)
+
+Checking active effects...
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CaravanController:Update() (at C:\Users\Vinny\Documents\Dunnigan's Tale\Assets\Resources\Scripts\CaravanController.cs:63)
+ 
+(Filename: C:/Users/Vinny/Documents/Dunnigan's Tale/Assets/Resources/Scripts/CaravanController.cs Line: 63)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.536746 ms
+System memory in use before: 16.1 MB.
+System memory in use after: 16.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 301.
+Total: 0.304331 ms (FindLiveObjects: 0.020002 ms CreateObjectMapping: 0.014287 ms MarkObjects: 0.257895 ms  DeleteObjects: 0.011192 ms)
+
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1f38 -> priority: 1 
+  Thread -> id: 38f8 -> priority: 1 

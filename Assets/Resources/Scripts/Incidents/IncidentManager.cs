@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class IncidentManager : MonoBehaviour {
+public class IncidentManager : MonoBehaviour {	
+	
 
 	public static void setNextIncidentCheck(){
 		GameController.instance.nextIncidentCheck += Random.Range (30, 60);  // between half-day to full day
@@ -13,6 +15,9 @@ public class IncidentManager : MonoBehaviour {
 		float roll = Random.Range (0.0f, 1.0f);
 		if (roll <= GameController.instance.incidentProbability) {
 			Incident i = generateIncident ();
+
+			CallIncidentPopUp callPopUp = new CallIncidentPopUp();
+			callPopUp.callPopUp (i);
 
 			applyEffect (i);
 
@@ -65,6 +70,5 @@ public class IncidentManager : MonoBehaviour {
 		}
        
 	}
-
 
 }
